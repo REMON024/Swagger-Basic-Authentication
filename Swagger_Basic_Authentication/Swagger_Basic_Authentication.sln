@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagger_Basic_Authentication", "Swagger_Basic_Authentication\Swagger_Basic_Authentication.csproj", "{EB4418F4-18A4-49E8-9D6A-2BED0F4D52E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB4418F4-18A4-49E8-9D6A-2BED0F4D52E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4418F4-18A4-49E8-9D6A-2BED0F4D52E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4418F4-18A4-49E8-9D6A-2BED0F4D52E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4418F4-18A4-49E8-9D6A-2BED0F4D52E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C93BD98-2B83-4FAD-9FE9-4B215F83CA31}
+	EndGlobalSection
+EndGlobal
