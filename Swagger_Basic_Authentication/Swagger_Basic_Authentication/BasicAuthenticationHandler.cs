@@ -42,8 +42,8 @@ namespace Swagger_Basic_Authentication
             {
                 var authheader = AuthenticationHeaderValue.Parse(Request.Headers["Authorization"]);
                 var credentials = Encoding.UTF8.GetString(Convert.FromBase64String(authheader.Parameter)).Split(':');
-                username = credentials.LastOrDefault();
-                var password = credentials.LastOrDefault();
+                username = credentials[0];
+                var password = credentials[1];
                 if (!_studentService.checkUser(username, password))
                 {
                     throw new ArgumentException("invalid username or password");
