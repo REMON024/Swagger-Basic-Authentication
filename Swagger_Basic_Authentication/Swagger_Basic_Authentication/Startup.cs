@@ -34,7 +34,7 @@ namespace Swagger_Basic_Authentication
 
             services.AddVersionedApiExplorer(c =>
             {
-                c.GroupNameFormat = "'v'vv";
+                c.GroupNameFormat = "'v'VVV";
                 c.SubstituteApiVersionInUrl = true;
                 c.AssumeDefaultVersionWhenUnspecified = true;
                 c.DefaultApiVersion = new ApiVersion(1, 0);
